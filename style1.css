@@ -28,7 +28,7 @@ a {
   color: white;
 }
 nav {
-  background-color: red;
+  background-color: rgb;
 }
 
 /* Menu */
@@ -103,6 +103,6 @@ footer {
   line-height: 50px;
   background-color: blue;
   text-align: center;
-  color: #fcfcfc;
+  color: #f30a1d;
   bottom: 0;
 }
