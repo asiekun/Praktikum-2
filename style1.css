@@ -101,7 +101,7 @@ input[type='reset']:active {
 footer {
   height: 50px;
   line-height: 50px;
-  background-color: red;
+  background-color: blue;
   text-align: center;
   color: #fcfcfc;
   bottom: 0;
