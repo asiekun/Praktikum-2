@@ -70,7 +70,7 @@ legend {
   border: 5px solid black;
   font-size: 120%;
   text-align: left;
-  background-color: cadetblue;
+  background-color: white;
 }
 input[type='text'] {
   margin-bottom: 10px;
@@ -97,7 +97,7 @@ button,
 input[type='submit'],
 input[type='reset'] {
   font-size: 12px;
-  background: #22a4cf;
+  background: #570202;
   color: white;
   border: black 3px solid;
   border-radius: 5px;
