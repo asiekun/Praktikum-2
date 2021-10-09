@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica;
+}
+
+/* link style */
+a:link,
+a:visited {
+  color: #fcfcfc;
+}
+a:focus,
+a:hover,
+a:active {
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  background-color: blue;
+}
+
+/* Menu */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+nav ul li a {
+  display: block;
+  border: 1px solid;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+}
+/* Akhir Menu */
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  padding: 20px;
+  border: 5px solid black;
+  background-color: cadetblue;
+  opacity: 90%;
+}
+legend {
+  padding: 0.2px 0.5px;
+  border: 5px solid black;
+  font-size: 120%;
+  text-align: left;
+  background-color: cadetblue;
+}
+input[type='text'] {
+  margin-bottom: 10px;
+}
+input[type='text'] {
+  margin-bottom: 10px;
+}
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  font-size: 12px;
+  background: #22a4cf;
+  color: white;
+  border: black 3px solid;
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button:hover,
+input[type='submit']:active,
+input[type='reset']:active {
+  opacity: 0.8;
+  color: black;
+}
+footer {
+  height: 50px;
+  line-height: 50px;
+  background-color: blue;
+  text-align: center;
+  color: #fcfcfc;
+  bottom: 0;
+}

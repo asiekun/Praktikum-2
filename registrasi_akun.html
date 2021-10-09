@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrasi Akun</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="registrasi_akun.html">Buat Akun</a></li>
+          <li><a href="data_diri.html">Data Diri</a></li>
+          <li><a href="data_orang_tua.html">Data OrangTua</a></li>
+          <li><a href="sekolah.html">Data Sekolah</a></li>
+          <li><a href="dokumen.html">Upload Dokumen</a></li>
+        </ul>
+      </nav>
+      <img src="logo.png" width="150" height="100" />
+    </header>
+    <div class="container">
+      <form>
+        <fieldset>
+          <legend>Buat Akun</legend>
+          <table>
+            <tr>
+              <td>Email :</td>
+              <td><input type="email" required placeholder="Email Anda" autofocus /></td>
+            </tr>
+            <tr>
+              <td>Password :</td>
+              <td>
+                <input
+                  type="password"
+                  id="pwd"
+                  name="pwd"
+                  required
+                  placeholder="Password Anda"
+                  minleght="8"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Password harus memuat huruf besar,huruf kecil dan simbol minimal 8 karakter"
+                />
+              </td>
+            </tr>
+          </table>
+          <button type="submit" value="kirim">Submit</button>
+          <button type="reset" value="batal">Reset</button>
+          <button type="submit" name="submit"><a href="data_diri.html">Selanjutnya</a></button>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <p>Copyright &copy; 2021, Kelompok Asikeun</p>
+    </footer>
+  </body>
+</html>

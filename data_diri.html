@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Diri</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="registrasi_akun.html">Buat Akun</a></li>
+          <li><a href="data_diri.html">Data Diri</a></li>
+          <li><a href="data_orang_tua.html">Data OrangTua</a></li>
+          <li><a href="sekolah.html">Data Sekolah</a></li>
+          <li><a href="dokumen.html">Upload Dokumen</a></li>
+        </ul>
+      </nav>
+      <img src="logo.png" width="150" height="100" />
+    </header>
+    <div class="container">
+      <form>
+        <fieldset>
+          <legend>Data Diri</legend>
+          <table>
+            <tr>
+              <td>Nama Lengkap :</td>
+              <td><input type="text" placeholder="Nama Lengkap Anda" required autofocus /></td>
+            </tr>
+            <tr>
+              <td>NIK :</td>
+              <td><input type="text" placeholder="NIK Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Tempat Lahir :</td>
+              <td><input type="text" placeholder="Tempat Lahir Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Tanggal Lahir:</td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td>Jenis Kelamin :</td>
+              <td><input type="radio" name="jk" value="lk" />Laki-Laki<input type="radio" name="jk" value="pr" />Perempuan</td>
+            </tr>
+            <tr>
+              <td>Agama:</td>
+              <td>
+                <select name="agama">
+                  <option value="Opsi">---Pilih---</option>
+                  <option value="Islam">Islam</option>
+                  <option value="Kristen">Kristen</option>
+                  <option value="Katholik">Katholik</option>
+                  <option value="Buddha">Buddha</option>
+                  <option value="Hindu">Hindu</option>
+                  <option value="Khonghucu">Khonghucu</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Email :</td>
+              <td><input type="email" placeholder="Email Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Asal Sekolah:</td>
+              <td><input type="text" placeholder="Asal Sekolah" required /></td>
+            </tr>
+            <tr>
+              <td>No.HP :</td>
+              <td><input type="text" placeholder="NO. HP Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Motivasi:</td>
+              <td><textarea name="Motivasi" placeholder="Motivasi Anda" required></textarea></td>
+            </tr>
+          </table>
+          <button type="submit" name="submit"><a href="registrasi_akun.html">Sebelumnya</a></button>
+          <button type="submit" value="kirim">Submit</button>
+          <button type="reset" value="batal">Reset</button>
+          <button type="submit" name="submit"><a href="data_orang_tua.html">Selanjutnya</a></button>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <p>Copyright &copy; 2021, Kelompok Asikeun</p>
+    </footer>
+  </body>
+</html>

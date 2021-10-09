@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Orang Tua</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="registrasi_akun.html">Buat Akun</a></li>
+          <li><a href="data_diri.html">Data Diri</a></li>
+          <li><a href="data_orang_tua.html">Data OrangTua</a></li>
+          <li><a href="sekolah.html">Data Sekolah</a></li>
+          <li><a href="dokumen.html">Upload Dokumen</a></li>
+        </ul>
+      </nav>
+      <img src="logo.png" width="150" height="100" />
+    </header>
+    <div class="container">
+      <form>
+        <fieldset>
+          <legend>Data Ibu</legend>
+          <table>
+            <tr>
+              <td>Nama Lengkap :</td>
+              <td><input type="text" placeholder="Nama Lengkap Ibu Anda" required autofocus/></td>
+            </tr>
+            <tr>
+              <td>Alamat Lengkap:</td>
+              <td><input type="text" placeholder="Alamat Lengkap" required /></td>
+            </tr>
+            <tr>
+              <td>Pekerjaan :</td>
+              <td><input type="text" placeholder="Pekerjaan Ibu Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Pendidikan :</td>
+              <td>
+                <select name="Pendidikan" id="Pendidikan">
+                  <option value="opsi">---Pilih---</option>
+                  <option value="SD">SD</option>
+                  <option value="SMP">SMP</option>
+                  <option value="SMA">SMA</option>
+                  <option value="S1">S1</option>
+                  <option value="S2">S2</option>
+                </select>
+              </td>
+            </tr>
+            <tr>  
+              <td>Agama :</td> 
+              <td>
+                <select name="Agama" id="Agama">
+                  <option value="opsi">---Pilih---</option>
+                  <option value="Islam">Islam</option>
+                  <option value="Kristen">Kristen</option>
+                  <option value="Katholik">Katholik</option>
+                  <option value="Buddha">Buddha</option>
+                  <option value="Hindu">Hindu</option>
+                  <option value="Khonghucu">Khonghucu</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+            <br />
+            <button type="submit" value="kirim">Submit</button>
+            <button type="reset" value="batal">Reset</button>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Data Ayah</legend>
+          <table>
+            <tr>
+              <td>Nama Lengkap :</td>
+              <td><input type="text" placeholder="Nama Lengkap Ayah Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Alamat Lengkap:</td>
+              <td><input type="text" placeholder="Alamat Lengkap" required /></td>
+            </tr>
+            <tr>
+              <td>Pekerjaan :</td>
+              <td><input type="text" placeholder="Pekerjaan Ayah Anda" required /></td>
+            </tr>
+            <tr>
+              <td>Pendidikan :</td>
+              <td>
+                <select name="Pendidikan" id="Pendidikan">
+                  <option value="opsi">---Pilih---</option>
+                  <option value="SD">SD</option>
+                  <option value="SMP">SMP</option>
+                  <option value="SMA">SMA</option>
+                  <option value="S1">S1</option>
+                  <option value="S2">S2</option>
+                </select>
+              </td>
+            </tr>
+            <tr>  
+              <td>Agama :</td> 
+              <td>
+                <select name="Agama" id="Agama">
+                  <option value="opsi">---Pilih---</option>
+                  <option value="Islam">Islam</option>
+                  <option value="Kristen">Kristen</option>
+                  <option value="Katholik">Katholik</option>
+                  <option value="Buddha">Buddha</option>
+                  <option value="Hindu">Hindu</option>
+                  <option value="Khonghucu">Khonghucu</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+            <br />
+            <button type="submit" name="submit"><a href="data_diri.html">Sebelumnya</a></button>
+            <button type="submit" value="kirim">Submit</button>
+            <button type="reset" value="batal">Reset</button>
+            <button type="submit" name="submit"><a href="sekolah.html">Selanjutnya</a></button>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <p>Copyright &copy; 2021, Kelompok Asikeun</p>
+    </footer>
+  </body>
+</html>
