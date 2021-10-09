@@ -28,7 +28,7 @@ a {
   color: white;
 }
 nav {
-  background-color: blue;
+  background-color: red;
 }
 
 /* Menu */
@@ -71,7 +71,7 @@ legend {
   border: 5px solid black;
   font-size: 120%;
   text-align: left;
-  background-color: cadetblue;
+  background-color: white;
 }
 
 input[type='email'] {
@@ -101,7 +101,7 @@ input[type='reset']:active {
 footer {
   height: 50px;
   line-height: 50px;
-  background-color: blue;
+  background-color: red;
   text-align: center;
   color: #fcfcfc;
   bottom: 0;
